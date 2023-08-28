@@ -1,0 +1,50 @@
+.cse img{
+    width: 1400px; 
+    height: 350px;  
+}
+
+h1{
+    color:darkblue;
+    margin:0px;
+    text-align: center;
+    background-color: beige;
+}
+nav {
+    background-color:pink;
+    color: darkblue;
+    text-emphasis-color: blue;
+    }
+    .menu {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+        }
+        .menu li {
+        margin: 0 1rem;
+        position: relative;
+        }
+        .menu a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s;
+        }
+        .menu a:hover {
+        color: beige;
+        }
+        .submenu-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: deepskyblue;
+        z-index: 1;
+        }
+        .submenu:hover .submenu-content {
+        display: block;
+        }
+        body{
+            background-color: beige;
+            color:darkblue;
+        }
+    
